@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { lostLives } from "../Redux/livesSlice"
 import { incrementScore, resetScore } from "../Redux/scoreSlice"
 import MyVerticallyCenteredModal from "../Views/modalView"
-import {updateFirebase} from "../Redux/store"
+import {updateFirebase} from "../Redux/firebaseModel"
 import correctSound from "../Assets/Correct.wav"
 import wrongSound from "../Assets/Wrong.wav"
 import { useNavigate } from 'react-router-dom'

@@ -4,7 +4,7 @@ import { livesSet } from "../Redux/livesSlice"
 import { getFirestore } from "firebase/firestore"
 import {React, useState, useEffect} from "react";
 import { useNavigate } from 'react-router-dom'
-import { firebaseArray } from "../Redux/store"
+import { firebaseArray } from "../Redux/firebaseModel"
 
 function QuizMenu() {
     const [hsArray, setHSArray] = useState([]);
