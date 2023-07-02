@@ -1,5 +1,7 @@
 # Poke-Project
 
+https://new-poke-7cbcf.web.app/
+
 ## How to setup
 Clone the repository and enter the command 'npm install' in the my-app directory of the Poke-Project. This should install everything necessary for the project to run without critical errors that render the app unusable. To launch the app, you can enter the npm start command in the console, which should open the app in the browser. 
 
